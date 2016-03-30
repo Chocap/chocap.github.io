@@ -1,35 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Science in Virtual Reality</title>
+  <title>Chrome Experiments for Virtual Reality</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
   <!-- Sharing -->
-  <meta name="name" content="Science in Virtual Reality">
-  <meta name="image" content="doublevr1.jpg">
-  <meta name="description" content="A experimental study in virtual reality using Chrome experiments for Cardboard.">
+  <meta name="name" content="Chrome Experiments for Virtual Reality">
+  <meta name="image" content="http://vr.chromeexperiments.com/images/meta/CE_Cardboard_social.jpg">
+  <meta name="description" content="A gallery of virtual reality Chrome Experiments for Cardboard.">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@eme_nae">
-  <meta name="twitter:title" content="Science in Virtual Reality">
-  <meta name="twitter:description" content="A experimental study in virtual reality using Chrome experiments for Cardboard.">
-  <meta name="twitter:creator" content="@eme_nae">
-  <meta name="twitter:image:src" content="doublevr1.jpg">
+  <meta name="twitter:site" content="@ChromeExp">
+  <meta name="twitter:title" content="Chrome Experiments for Virtual Reality">
+  <meta name="twitter:description" content="A gallery of virtual reality Chrome Experiments for Cardboard.">
+  <meta name="twitter:creator" content="@ChromeExp">
+  <meta name="twitter:image:src" content="http://vr.chromeexperiments.com/images/meta/CE_Cardboard_social.jpg">
   <meta name="twitter:domain" content="ChromeExperiments.com">
 
   <meta itemprop="name" content="Chrome Experiments for Virtual Reality">
-  <meta itemprop="description" content="A experimental study in virtual reality using Chrome experiments for Cardboard.">
-  <meta itemprop="image" src="doublevr1.jpg">
+  <meta itemprop="description" content="A gallery of virtual reality Chrome Experiments for Cardboard.">
+  <meta itemprop="image" src="http://vr.chromeexperiments.com/images/meta/CE_Cardboard_social.jpg">
 
   <link rel="manifest" href="manifest.json">
   <meta name="mobile-web-app-capable" content="yes">
 
-  <meta property="og:title" content="Science in Virtual Reality">
+  <meta property="og:title" content="Chrome Experiments for Virtual Reality">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="doublevr1.jpg"/>
-  <meta property="og:site_name" content="VR Experiments">
-  <meta property="og:description" content="A experimental study in virtual reality using Chrome experiments for Cardboard.">
+  <meta property="og:image" content="http://vr.chromeexperiments.com/images/meta/CE_Cardboard_social.jpg"/>
+  <meta property="og:site_name" content="Chrome Experiments">
+  <meta property="og:description" content="A gallery of virtual reality Chrome Experiments for Cardboard.">
 
   <link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -48,7 +49,7 @@
 			<div id="experiments_page" >
 				<div id="experiments_block" class="centered_block">
 					<div id="intro_block" class="copy_block">
-						<h1 class="helvetica">Science in Virtual Reality</h1>
+						<h1 class="helvetica">Chrome Experiments for Virtual Reality</h1>
 						<p>Turn your smartphone into a virtual reality device using Google Chrome and <a href="http://cardboard.withgoogle.com" target="_blank">Cardboard</a>.</p>
 					</div>
 					<div id="animation_block">
@@ -63,14 +64,40 @@
 							<div id="launch_button" class="chunky_button">LAUNCH EXPERIMENT</div>
 						</div>
 					</div>
-				
+					<div class="paging_block"><a href="#" id="dev_page_link">NEXT &gt; - Developer Tools</a></div>
+				</div>
+			</div>
+			<div id="cardboard_page" >
+				<div id="cardboard_block" class="centered_block">
+					<div class="cardboard_illustration_container">
+						<div class="cardboard_illustration"></div>
+					</div>
 					<div class="cardboard_info copy_block">
 						<h1>What’s Cardboard?</h1>
 						<p>Cardboard is a simple DIY device for turning your smartphone into a virtual reality headset. <a href="http://cardboard.withgoogle.com/" target="_blank">Learn more</a>.</p>
 					</div>
 				</div>
 			</div>
-			
+			<div id="dev_page" >
+				<div id="developers_block" class="centered_block">
+					<div id="developer_info" class="copy_block">
+						<h1>Developer Tools</h1>
+						<p>Here’s a basic VR experiment for Google Chrome and Cardboard using WebGL and <a href="http://threejs.org/" target="_blank">Three.js</a>. (To create an Android app, click <a href="https://developers.google.com/cardboard/overview" target="_blank">here</a>.)</p>
+					</div>
+					<div id="developer_example">
+					    <section id="demo" class="mast container">
+					      <div id="example"></div>
+					    </section>
+					</div>
+					<div class="developer_button_block">
+						<div class="button_container">
+							<div id="download_code_button" class="chunky_button">DOWNLOAD CODE</div>
+						</div>
+					</div>
+					<div id="developer_code_preview_block" class="copy_block">
+						<a href="#" id="code_preview">+Code Preview</a>
+						<div id="code"></div>
+					</div>
 					<div class="paging_block"><a href="#" id="experiments_page_link"> &lt; BACK - Experiments</a></div>
 				</div>
 			</div>
