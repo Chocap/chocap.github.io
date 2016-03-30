@@ -2,6 +2,14 @@
 <head>
 	<title>A simple GLAM scene</title>
 	<script src="glam.js"> </script>
+	<renderer type="cardboard"></renderer>
+	<controller type="deviceOrientation"></controller>
+	sphereelt.addEventListener("viewover", function(event) {
+selectedBubble = groupelt;
+	});
+	sphereelt.addEventListener("viewout", function(event) {
+selectedBubble = null;
+	});
 </head>
 <body>
             <glam>
