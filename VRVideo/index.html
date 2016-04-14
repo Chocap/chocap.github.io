@@ -7,16 +7,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <script src="aframe.min.js"></script>
     
-    <video> var videoElement = document.createElement( 'video' );
-videoElement.setAttribute('webkit-playsinline', 'webkit-playsinline');
-webview.allowsInlineMediaPlayback = true;
-webview.allowsInlineMediaPlayback = YES; </video>
 
   </head>
   <body>
     <a-scene>
 
-      <a-videosphere src="draft3.mp4" autoplay="true" loop="true" rotation="0 180 0"></a-videosphere>
+      <a-videosphere src="draft3.mp4" controls webkit-playsinline ad-outlet="video" autoplay="true" loop="true" rotation="0 180 0"></a-videosphere>
 
     </a-scene>
   </body>
