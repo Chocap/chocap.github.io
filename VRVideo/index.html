@@ -11,10 +11,12 @@
   </head>
   <body>
     <a-scene>
-      
-
-      <a-videosphere src="draft3.mp4" controls webkit-playsinline ad-outlet="video" autoplay="true" loop="true" rotation="0 180 0"></a-videosphere>
-
+      <a-assets>
+        <video id="video" src="test.mp4" loop webkit-playsinline></video>
+      </a-assets>
+      <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
     </a-scene>
   </body>
 </html>
+
+
