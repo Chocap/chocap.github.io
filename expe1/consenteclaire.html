@@ -44,8 +44,13 @@
 				 vous serez ainsi excusé. </p>
 				 
 				 <p>Veuillez cocher la case correspondante</p>
-				 <form action="">
-<input type="checkbox" name="agree" value="J'ai lu">J'ai lu les conditions et j'accepte de participer à l'étude. Veuillez appuyez sur le bouton suivant. Merci.*<br>
+				
+				<form action="submit.php">
+  <label><input type="checkbox" name="valid" required> J'accepte les conditions générales de vente</label>
+  <input type="submit" value="Envoyer">
+</form>
+				 <form action="submit.php">
+<input type="checkbox" name="agree" value="J'ai lu" required>J'ai lu les conditions et j'accepte de participer à l'étude. Veuillez appuyez sur le bouton suivant. Merci.*<br>
 
 <input type="checkbox" name="disagree" value="Je refuse">Je refuse de continuer. S'il vous plait, veuillez faire connaitre votre choix à l'expérimenteur et quitter la fenêtre. Merci.* 
 </form>
