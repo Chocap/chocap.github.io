@@ -205,7 +205,7 @@ label {
   /* To make sure that all label have the same size and are properly align */
   display: inline-block;
   width: 90px;
-  text-align: right;
+  text-align: left;
 }
 
 input, textarea {
@@ -244,5 +244,12 @@ textarea {
   /* To position the buttons to the same position of the text fields */
   padding-left: 90px; /* same size as the label elements */
 }
+
+button {
+  /* This extra magin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: .5em;
+}
+
 
 
