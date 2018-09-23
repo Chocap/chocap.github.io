@@ -251,5 +251,7 @@ button {
   margin-left: .5em;
 }
 
-
+div.article {
+    text-align: justify;
+}
 
